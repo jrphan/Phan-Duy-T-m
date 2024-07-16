@@ -25,14 +25,6 @@ var sum_to_n_c = function (n) {
   );
 };
 
-console.time("sum_to_n_a");
-console.log(sum_to_n_a(3));
-console.timeEnd("sum_to_n_a");
-
-console.time("sum_to_n_b");
-console.log(sum_to_n_b(3));
-console.timeEnd("sum_to_n_b");
-
-console.time("sum_to_n_c");
-console.log(sum_to_n_c(3));
-console.timeEnd("sum_to_n_c");
+console.log(sum_to_n_a(5));
+console.log(sum_to_n_b(5));
+console.log(sum_to_n_c(5));
